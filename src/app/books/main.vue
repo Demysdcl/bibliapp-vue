@@ -238,8 +238,8 @@
 
       <el-table-column inline-template label="Options" width="100">
         <div>
-          <el-button @click="edit(scope.$index)"   type="default" icon="edit" size="mini"></el-button>
-          <el-button @click="askRemove(scope.$index)" type="default" icon="delete" size="mini"></el-button>
+          <el-button @click="edit($index)"   type="default" icon="edit" size="mini"></el-button>
+          <el-button @click="askRemove($index)" type="default" icon="delete" size="mini"></el-button>
         </div>
       </el-table-column>
     </el-table>
